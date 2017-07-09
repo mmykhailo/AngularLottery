@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { LotteryComponent } from './lottery/lottery.component';
+import { RegisterFormComponent } from './lottery/register-form/register-form.component';
+import { CandidatesListComponent } from './lottery/candidates-list/candidates-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LotteryComponent,
+    RegisterFormComponent,
+    CandidatesListComponent
   ],
   imports: [
     BrowserModule,
